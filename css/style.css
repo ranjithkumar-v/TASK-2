@@ -8,14 +8,14 @@ ul li{
  text-align: center;
 }
 ul{
-    margin: 5px 0 0 0;
-    padding-left: 500px;
-    padding-top: 5px;
-    padding-bottom: 5px;
+    margin:0 0;
+    padding-left: 35%;
+    padding-top: 9px;
+    padding-bottom: 9px;
     background-color: black;
 }
 a{
-    color: white;
+    color:white;
     text-decoration: none;
 }
 a:hover{
@@ -32,40 +32,96 @@ a:hover{
     text-align: center;
     color: white;
     font-weight:900;
+
   }
   .centered {
     
     position: absolute;
-    top: 50%;
-    left: 50%;
+    top: 45%;
+    left:50%; 
     transform: translate(-50%, -160%);
   }
 .centered h2{
     margin-bottom: 0;
+    font-family: 'BioRhyme', serif;
+    letter-spacing: 1.5px;
 }
 .centered p{
-    margin-top: 10px;
-    font-size: 18px;
+    margin-top: px;
+    font-size: 15px;
 }
 .main-text h2{
     text-align: center;
     font-weight: normal;
-
-    
+       
 } 
+.main-text{
+    margin:5% 0;
+}
 .next-text{
     text-align: center;
+    padding-right: 250px;
+    padding-left: 250px;
+    color: gray;
+    line-height: 1.5;
+    margin: 3% 0;
+    
 }
 .showcase-image{
     display: inline;
-    margin-right: 15px;
+    margin-right: 35px;
 }
 .showcase{
     margin-top: 70px;
     text-align: center;
+    margin-bottom: 50px;
+
 }
 img{
     width: 20%;
     
+}
+@media (max-width:768px) 
+{
+
+nav ul{
+    padding-left: 13%;
+    font-size: 0.8em;
+}
+.centered{
+    
+    margin-top: 50px;    
+}
+.centered h2{
+    font-size: 1.3em;   
+}
+.centered p{
+    margin-top: 5px;
+    font-size: 0.8em;
+}
+.container img{
+    height: 75%;
+}
+.main-text {
+    margin-top: 50px;
+    text-align: center;
+    font-size: 0.8em;
+    padding: 0 10px;
+
+}
+.next-text{
+
+    padding: 0 70px;
+    margin-top: 50px;
+}
+.showcase-image{
+    display: block;
+    margin-bottom: 30px;
+
+}
+img{
+    width:50%
+
+}
 }
 
